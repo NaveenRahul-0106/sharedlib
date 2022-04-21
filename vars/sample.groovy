@@ -1,4 +1,5 @@
 def call (Map map = [:]) {
     val = "hello"
-    println val
+    println map["name"]
+    println map["num"]
 }
